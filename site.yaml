@@ -1,0 +1,8 @@
+site:
+  title: "Reading Group Research Digest"
+  base_url: "https://digest.example.org"
+  collection_dir: "content/digest"
+  index_file: "data/digest_index.yaml"
+build:
+  renderer: "markdown"
+  clean_urls: true

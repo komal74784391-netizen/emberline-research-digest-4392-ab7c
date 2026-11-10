@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+  <head><title>{{ page.title }}</title></head>
+  <body>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.authors | join: ", " }} &middot; {{ page.venue }} &middot; {{ page.year }}</p>
+      <p><a href="https://arxiv.org/abs/{{ page.arxiv_id }}">arXiv:{{ page.arxiv_id }}</a></p>
+      {{ content }}
+    </body>
+  </article>
+</html>
